@@ -4,3 +4,7 @@ Nama : Ayu Wardatul Widad
 NIM  : 2541070171
 Kelas : TI-1E
 
+2.1 Pemilihan 
+Pertanyaan 
+
+
