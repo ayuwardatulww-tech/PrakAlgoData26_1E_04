@@ -29,9 +29,7 @@ public class Mahasiswa04 {
       return "Kinerja kurang";
    }
  }
- public Mahasiswa04 (){
- }
-
+ public Mahasiswa04 (){}
 public Mahasiswa04 (String nm, String nim, double ipk, String kls){
    nama04 = nm;
    nim04 = nim;
