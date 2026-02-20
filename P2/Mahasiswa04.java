@@ -36,4 +36,5 @@ public Mahasiswa04 (String nm, String nim, double ipk, String kls){
    ipk04 = ipk;
    kelas04 = kls;
  }
+ 
 }
