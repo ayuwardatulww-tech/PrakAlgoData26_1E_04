@@ -15,8 +15,13 @@ public class Mahasiswa04 {
  void UbahKelas (String kelasbaru) {
    kelas04 = kelasbaru;
  }
+
  void updateIpk (double ipkBaru){
-   ipk04 = ipkBaru;
+   if (ipkBaru >= 0.0 && ipkBaru <= 4.0) {
+      ipk04 = ipkBaru;
+   }else {
+      System.out.println("Nilai IPK tidak valid");
+   }
  }
  String nilaiKinerja (){
    if (ipk04 >= 3.5) {
