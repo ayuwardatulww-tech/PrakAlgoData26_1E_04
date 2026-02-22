@@ -8,6 +8,10 @@ Nim : 254102070171
 
 2.1 Percobaan 1 
 
+Berikut hasil kode dan hasil run percobaan 2.1
+
+<img width="1604" height="867" alt="Screenshot 2026-02-20 132325" src="https://github.com/user-attachments/assets/c62876da-dbb3-4aa8-8c4c-eaee19efabcb" />
+
 Pertanyaan 
 
 1. Sebutkan dua karakteristik class atau object!
@@ -24,7 +28,7 @@ Jawaban
 
 1. atribut (data atau variable) dan method (funsi yang dilakukan objek)
    
-2. adad 4 yaitu nama, nim dan kelas yang bertipe string, lalu ada ipk yang bertipe double 
+2. ada 4 yaitu nama, nim dan kelas yang bertipe string, lalu ada ipk yang bertipe double 
 
 3. ada 4 method yaitu
    - tampilkanInformasi ()
@@ -35,15 +39,17 @@ Jawaban
 4. Hasil modifikasi
    <img width="566" height="155" alt="image" src="https://github.com/user-attachments/assets/de80e035-b5a0-4145-a0a1-b794fae38732" />
 
-5. 
-
-Berikut hasil kode dan hasil run percobaan 2.1
-
-<img width="432" height="715" alt="image" src="https://github.com/user-attachments/assets/15d81b20-b673-4f04-8ac9-6889459e3a9c" />
+5. Method nilaiKerj() berfugnsi untuk menilai kinerja mahasiswa berdasarkan nilai IPK, cara kerjanya yaitu dengan membandingkan IPK dengan beberapa batas nilai menggunakan if-else, mulai dari nilai tertinggi ke tererndah. Method ini meretrun hasil penilaian dalam bentuk String
 
 2.2 Percobaan 2
 
 Hasil kode dan hasil run percobaan 2
+
+<img width="446" height="314" alt="image" src="https://github.com/user-attachments/assets/b2cf8164-e8f7-4887-b670-8e789dc2312c" />
+
+
+<img width="276" height="183" alt="image" src="https://github.com/user-attachments/assets/27fa37d1-1257-4d8f-b88d-84badf8c87aa" />
+
 
 Pertanyaan 
 
