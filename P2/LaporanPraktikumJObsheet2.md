@@ -1,4 +1,4 @@
-*LAPORAN PRAKTIKUM JOBSHEET 2*
+LAPORAN PRAKTIKUM JOBSHEET 2
 
 Nama : Ayu Wardatul Widad
 
@@ -7,6 +7,10 @@ Kelas : TI - 1E
 Nim : 254102070171
 
 2.1 Percobaan 1 
+
+Berikut hasil kode dan hasil run percobaan 2.1
+
+<img width="1604" height="867" alt="Screenshot 2026-02-20 132325" src="https://github.com/user-attachments/assets/c62876da-dbb3-4aa8-8c4c-eaee19efabcb" />
 
 Pertanyaan 
 
@@ -24,7 +28,7 @@ Jawaban
 
 1. atribut (data atau variable) dan method (funsi yang dilakukan objek)
    
-2. adad 4 yaitu nama, nim dan kelas yang bertipe string, lalu ada ipk yang bertipe double 
+2. ada 4 yaitu nama, nim dan kelas yang bertipe string, lalu ada ipk yang bertipe double 
 
 3. ada 4 method yaitu
    - tampilkanInformasi ()
@@ -35,15 +39,17 @@ Jawaban
 4. Hasil modifikasi
    <img width="566" height="155" alt="image" src="https://github.com/user-attachments/assets/de80e035-b5a0-4145-a0a1-b794fae38732" />
 
-5. 
-
-Berikut hasil kode dan hasil run percobaan 2.1
-
-<img width="432" height="715" alt="image" src="https://github.com/user-attachments/assets/15d81b20-b673-4f04-8ac9-6889459e3a9c" />
+5. Method nilaiKerj() berfugnsi untuk menilai kinerja mahasiswa berdasarkan nilai IPK, cara kerjanya yaitu dengan membandingkan IPK dengan beberapa batas nilai menggunakan if-else, mulai dari nilai tertinggi ke tererndah. Method ini meretrun hasil penilaian dalam bentuk String
 
 2.2 Percobaan 2
 
 Hasil kode dan hasil run percobaan 2
+
+<img width="446" height="314" alt="image" src="https://github.com/user-attachments/assets/b2cf8164-e8f7-4887-b670-8e789dc2312c" />
+
+
+<img width="276" height="183" alt="image" src="https://github.com/user-attachments/assets/27fa37d1-1257-4d8f-b88d-84badf8c87aa" />
+
 
 Pertanyaan 
 
@@ -104,7 +110,32 @@ Jawaban
 
 2.4 Percobaan 4 
 
-Berikut hasil run dan hasil kode 
+Berikut hasil run dan hasil kode class MataKuliah
+
+class MataKuliah04
+
+<img width="842" height="793" alt="image" src="https://github.com/user-attachments/assets/ec49adb1-85b3-4bf8-b0c5-d158ba3aec83" />
+
+class MataKuliah04
+
+<img width="1071" height="836" alt="image" src="https://github.com/user-attachments/assets/ee2a852a-ea3c-497a-bd90-530a862307a6" />
+
+<img width="347" height="590" alt="image" src="https://github.com/user-attachments/assets/fb2a5715-6be5-4d60-bcff-9dde6d081033" />
+
+Selanjutnya hasil run dan kode pemograman class Dosen
+
+class Dosen04
+
+<img width="796" height="860" alt="image" src="https://github.com/user-attachments/assets/ea62cd36-b1f4-4d60-9d50-4d05d2980d9d" />
+
+class DosenMain04
+
+<img width="1021" height="695" alt="image" src="https://github.com/user-attachments/assets/21364506-118c-42fc-9887-bc0811e4f6a8" />
+
+<img width="279" height="656" alt="image" src="https://github.com/user-attachments/assets/c23c6cec-668a-46fd-b5f2-e24330fd4729" />
+
+
+
 
 
 
