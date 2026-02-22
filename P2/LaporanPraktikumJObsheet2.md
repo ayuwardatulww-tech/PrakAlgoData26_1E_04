@@ -1,4 +1,4 @@
-*LAPORAN PRAKTIKUM JOBSHEET 2*
+LAPORAN PRAKTIKUM JOBSHEET 2
 
 Nama : Ayu Wardatul Widad
 
@@ -104,7 +104,32 @@ Jawaban
 
 2.4 Percobaan 4 
 
-Berikut hasil run dan hasil kode 
+Berikut hasil run dan hasil kode class MataKuliah
+
+class MataKuliah04
+
+<img width="842" height="793" alt="image" src="https://github.com/user-attachments/assets/ec49adb1-85b3-4bf8-b0c5-d158ba3aec83" />
+
+class MataKuliah04
+
+<img width="1071" height="836" alt="image" src="https://github.com/user-attachments/assets/ee2a852a-ea3c-497a-bd90-530a862307a6" />
+
+<img width="347" height="590" alt="image" src="https://github.com/user-attachments/assets/fb2a5715-6be5-4d60-bcff-9dde6d081033" />
+
+Selanjutnya hasil run dan kode pemograman class Dosen
+
+class Dosen04
+
+<img width="796" height="860" alt="image" src="https://github.com/user-attachments/assets/ea62cd36-b1f4-4d60-9d50-4d05d2980d9d" />
+
+class DosenMain04
+
+<img width="1021" height="695" alt="image" src="https://github.com/user-attachments/assets/21364506-118c-42fc-9887-bc0811e4f6a8" />
+
+<img width="279" height="656" alt="image" src="https://github.com/user-attachments/assets/c23c6cec-668a-46fd-b5f2-e24330fd4729" />
+
+
+
 
 
 
