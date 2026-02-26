@@ -11,5 +11,6 @@ public class MataKuliah04 {
         this.nama04 = nama04;
         this.sks04 = sks04;
         this.jumlahjam04 = jumlahjam04;
+        
     }
 }

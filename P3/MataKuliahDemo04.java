@@ -32,6 +32,7 @@ public class MataKuliahDemo04 {
         System.out.println("Sks           : "+ arrayOfMataKuliah04[i].sks04);
         System.out.println("Jumlah Jam    : "+arrayOfMataKuliah04[i].jumlahjam04);
 
+        
     }
     }
 }
