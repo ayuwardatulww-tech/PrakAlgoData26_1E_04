@@ -7,9 +7,15 @@ public class MataKuliahDemo04 {
     Scanner ayu = new Scanner(System.in);
     MataKuliah04[] arrayOfMataKuliah04 = new MataKuliah04[3];
     String kode, nama, dummy;
-    int sks, jumlahjam;
+    int sks, jumlahjam, input;
 
-    for (int i = 0; i < 3; i++) {
+    System.out.print("Masukkan Jumlah Input : ");
+    dummy = ayu.nextLine();
+    input = Integer.parseInt(dummy);
+
+    MataKuliah04 [] arrayOMataKuliah04 = new MataKuliah04[input];
+
+    for (int i = 0; i < input; i++) {
         System.out.println("Masukkan Data Mata Kuliah ke-"+(i+1));
         System.out.print("Kode        : ");
         kode = ayu.nextLine();
@@ -26,7 +32,7 @@ public class MataKuliahDemo04 {
         arrayOfMataKuliah04[i] = new MataKuliah04(kode, nama, sks, jumlahjam);
         arrayOfMataKuliah04[i].tambahData(kode, nama, sks, jumlahjam);
     }
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < input; i++) {
         arrayOfMataKuliah04[i].cetakInfo();
     }
     }
