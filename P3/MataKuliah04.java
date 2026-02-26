@@ -22,5 +22,12 @@ public class MataKuliah04 {
        sks = sks04;
        jumlahjam04 = jmljam;
     }
+    public void cetakInfo (){
+        System.out.println("Kode        : "+kode04);
+        System.out.println("Nama        : "+nama04);
+        System.out.println("Sks         : "+sks04);
+        System.out.println("Jumlah Jam  : "+jumlahjam04);
+        System.out.println();
+    }
     }
 

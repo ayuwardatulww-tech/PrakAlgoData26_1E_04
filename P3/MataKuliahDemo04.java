@@ -24,16 +24,11 @@ public class MataKuliahDemo04 {
         System.out.println("-----------------------------------");
 
         arrayOfMataKuliah04[i] = new MataKuliah04(kode, nama, sks, jumlahjam);
-        arrayOfMataKuliah04[i].tambahData(kode, nama, sks, i);
+        arrayOfMataKuliah04[i].tambahData(kode, nama, sks, jumlahjam);
     }
     for (int i = 0; i < 3; i++) {
-        System.out.println("Data Mata Kuliah ke-"+(i+1));
-        System.out.println("Kode          : "+arrayOfMataKuliah04[i].kode04);
-        System.out.println("Nama          : "+arrayOfMataKuliah04[i].nama04);
-        System.out.println("Sks           : "+ arrayOfMataKuliah04[i].sks04);
-        System.out.println("Jumlah Jam    : "+arrayOfMataKuliah04[i].jumlahjam04);
-
-
+        arrayOfMataKuliah04[i].cetakInfo();
     }
     }
-}
+    }
+
