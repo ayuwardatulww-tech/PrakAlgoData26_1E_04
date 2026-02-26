@@ -31,5 +31,6 @@ public class MahasiswaDemo04 {
             System.out.println("IPK     : "+arrayOfMahasiswa04[i].ipk);
             System.out.println("-----------------------------------------------");
         }
+        
     }
 }
