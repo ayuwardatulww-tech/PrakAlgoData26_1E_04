@@ -36,5 +36,7 @@ public class Dosendemo04 {
         }
         DataDosen04 data = new DataDosen04();
         data.dataSemuaDosen(arrayOfDosen04);
+
+        data.jumlahDosenPerJK(arrayOfDosen04);
     }
 }
