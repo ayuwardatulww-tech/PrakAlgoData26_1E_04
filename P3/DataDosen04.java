@@ -64,4 +64,15 @@ public class DataDosen04 {
         System.out.println("=== DOSEN TERTUA ===");
         tertua.cekInfo();
     }
+    void UsiaTemuda (Dosen04 [] arrayOfDosen04){
+        Dosen04 termuda = arrayOfDosen04[0];
+
+        for (Dosen04 dsn : arrayOfDosen04) {
+            if (dsn.usia04 > termuda.usia04) {
+                termuda = dsn;
+            }
+        }
+        System.out.println("=== DOSEN TERMUDA ===");
+        termuda.cekInfo();
+}
 }

@@ -42,5 +42,7 @@ public class Dosendemo04 {
         data.rataUsiaPerJK(arrayOfDosen04);
 
         data.UsiaTertua(arrayOfDosen04);
+
+        data.UsiaTemuda(arrayOfDosen04);
     }
 }
