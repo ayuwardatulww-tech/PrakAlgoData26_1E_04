@@ -38,5 +38,7 @@ public class Dosendemo04 {
         data.dataSemuaDosen(arrayOfDosen04);
 
         data.jumlahDosenPerJK(arrayOfDosen04);
+
+        data.rataUsiaPerJK(arrayOfDosen04);
     }
 }
