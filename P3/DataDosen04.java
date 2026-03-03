@@ -53,4 +53,15 @@ public class DataDosen04 {
         System.out.println("Rata - Rata Usia Perempuan      : "+rataWanita);
         System.out.println();
     }
+    void UsiaTertua (Dosen04 [] arrayOfDosen04){
+        Dosen04 tertua = arrayOfDosen04[0];
+
+        for (Dosen04 dsn : arrayOfDosen04) {
+            if (dsn.usia04 > tertua.usia04) {
+                tertua = dsn;
+            }
+        }
+        System.out.println("=== DOSEN TERTUA ===");
+        tertua.cekInfo();
+    }
 }
