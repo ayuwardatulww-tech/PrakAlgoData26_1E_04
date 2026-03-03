@@ -34,5 +34,7 @@ public class Dosendemo04 {
         for (int i = 0; i < input; i++) {
             arrayOfDosen04[i].cekInfo();
         }
+        DataDosen04 data = new DataDosen04();
+        data.dataSemuaDosen(arrayOfDosen04);
     }
 }
