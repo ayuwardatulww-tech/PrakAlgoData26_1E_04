@@ -7,6 +7,7 @@ Kelas    : TI - 1E
 NIM      : 254107020171
 
 
+
 *5.2 PERCOBAAN*
 
 Hasil Kode 
