@@ -143,4 +143,12 @@ JAWABAN
 
 *LATIHAN PRAKTIKUM*
 
+Hasil kode pemograman nilai Mahasiswa 
+
+class nilaiMahasiswa 
+
+class mainNilaiMahasiswa
+
+
+hasil run 
 
