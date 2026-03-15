@@ -140,3 +140,76 @@ JAWABAN
   <img width="187" height="60" alt="image" src="https://github.com/user-attachments/assets/e1f5e551-92fb-46d8-b9cb-83581e8e7f14" />
 
 5. method totalDC() bekerja dengan membagi data menjadi dua bagian, kemudian menghitung jumlah masing - masing begian secara rekursif, setelah itu hasil dari kedua bagian tersebut digabungkan kembali dengan penjumlahan untuk mendapatkan total keuntungan seluruh data
+
+* Latihan Soal *
+
+Class nilai Mahasiswa 
+
+package P5;
+
+public class nilaiMahasiswa04 {
+
+     int maxUTS (int []uts, int left, int right){
+        if (left == right) {
+            return uts[left];
+        }
+
+        int mid = (left + right)/ 2;
+        int leftMax = maxUTS(uts, left, mid);
+        int rightMax = maxUTS(uts, mid + 1, right);
+
+        return (leftMax > rightMax) ? leftMax : rightMax;
+    }
+     int minUTS (int []uts , int left, int right){
+        if (left == right) {
+            return uts[left];
+        }
+        int mid = (left + right) / 2;
+
+         int leftMin = minUTS(uts, left, mid);
+         int rightMin = minUTS(uts, mid + 1, right);
+        
+        return (leftMin < rightMin) ? leftMin : rightMin;
+    }
+     double rataUAS(int []uas){
+        int total = 0;
+
+        for (int i = 0; i < uas.length; i++) {
+            total += uas[i];
+        }
+        return (double) total / uas.length;
+    }
+
+}
+
+Class mainNilaiMahasiswa 
+
+package P5;
+
+public class mainNIlaiMahasiswa {
+    public static void main(String[] args) {
+        String [] nama = {"Ahmad","Budi","Cindy","Dian","Eko","Fajar","Gina","Hadi"};
+
+        int [] uts = {78, 85, 90, 76, 92, 88, 80, 82};
+        int [] uas = {82, 88, 87, 79, 95, 85, 83, 84};
+
+        nilaiMahasiswa04 m = new nilaiMahasiswa04();
+
+        int max = m.maxUTS(uts, 0, uts.length -1);
+        int min = m.minUTS(uts, 0, uts.length -1);
+        double rata = m.rataUAS(uas);
+
+        System.out.println("Nilai UTS tertinggi     : "+ max);
+        System.out.println("Nilai UTS terendah      : "+ min);
+        System.out.println("Rata - rata nilai UAS   : "+ rata);
+
+    }
+} 
+
+hasil run 
+
+Mohon maaf sebelumnya saya tidak bisa menampilkan hasil screenshot karena tidak bisa di upload kedalam github. Walaupun saya coba berulang kali tetap tidak bisa. Izin mengetik manual keluaran run dari kode program saya di atas.
+
+Nilai UTS tertinggi     : 92
+Nilai UTS terendah      : 76
+Rata - rata nilai UAS   : 85.375
