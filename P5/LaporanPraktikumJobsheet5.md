@@ -140,16 +140,3 @@ JAWABAN
   <img width="187" height="60" alt="image" src="https://github.com/user-attachments/assets/e1f5e551-92fb-46d8-b9cb-83581e8e7f14" />
 
 5. method totalDC() bekerja dengan membagi data menjadi dua bagian, kemudian menghitung jumlah masing - masing begian secara rekursif, setelah itu hasil dari kedua bagian tersebut digabungkan kembali dengan penjumlahan untuk mendapatkan total keuntungan seluruh data
-
-
-*LATIHAN PRAKTIKUM*
-
-Hasil kode pemograman nilai Mahasiswa 
-
-class nilaiMahasiswa 
-
-class mainNilaiMahasiswa
-
-
-hasil run 
-
