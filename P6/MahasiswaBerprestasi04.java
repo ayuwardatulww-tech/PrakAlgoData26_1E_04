@@ -1,7 +1,7 @@
 package P6;
 
 public class MahasiswaBerprestasi04 {
-    Mahasiswa04 [] listMhs = new Mahasiswa04[5];
+    Mahasiswa04 [] listMhs = new Mahasiswa04[100];
     int idx;
      
     void tambah (Mahasiswa04 m){
