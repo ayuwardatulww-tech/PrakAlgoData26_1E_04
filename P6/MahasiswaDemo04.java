@@ -42,6 +42,7 @@ public class MahasiswaDemo04 {
         list.tampil();
     }
 }
+
  // Mahasiswa04 m1 = new Mahasiswa04("123", "Zidan", "2A", 3.2);
         // Mahasiswa04 m2 = new Mahasiswa04("124", "Ayu", "2A", 3.5);
         // Mahasiswa04 m3 = new Mahasiswa04("125", "Sofi", "2A", 3.1);
