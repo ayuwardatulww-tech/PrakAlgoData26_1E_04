@@ -1,9 +1,11 @@
 **LAPORAN PRAKTIKUM JOBSHEET 6**
+
 Nama : Ayu Wardatul Widad
 
 Kelas : TI - 1E
 
 NIM : 254107020171
+
 
 **5.2 PRAKTIKUM 1**
 
@@ -14,11 +16,11 @@ Class sorting04
 Class sortingMain04
 
 
-**Hasil run **
+**Hasil run**
 
 <img width="454" height="262" alt="Screenshot 2026-04-02 081537" src="https://github.com/user-attachments/assets/dfe3a84a-29a4-418d-8ec6-f6ae85a71689" />
 
-**Pertanyaan **
+**Pertanyaan**
 
 1. jelaskan fungsi kode program berikut
 
@@ -28,7 +30,7 @@ Class sortingMain04
 
 4. Pada Insertion sort, apakah tujuan dari perintah
 
-**Jawaban **
+**Jawaban**
 
 1. Kode tersebut membandingkan dua elemen bersebelahan ( data[j-1] dan data[j] ). Jika urutannya salah / nilai sebelumnya lebih besar maka dilakukan swap menggunakan variable sementara / temp
 
@@ -48,9 +50,10 @@ int min = i;
 
 4. Menggeser nilai ke kanan satu posisi. Nilai indeks j disalin ke indeks j+1
 
+
 **5.3 PRAKTIKUM 2**
 
-**Hasil kode **
+**Hasil kode**
 
 class mahasiswa04
 
@@ -64,7 +67,7 @@ class mahasiswaDemo04
 
 <img width="881" height="568" alt="image" src="https://github.com/user-attachments/assets/c0e3892f-16ca-448d-ab58-d12b5cac754b" />
 
-Hasil run 
+**Hasil run** 
 
 <img width="369" height="582" alt="image" src="https://github.com/user-attachments/assets/386159bf-5a19-4ade-a08f-c537687daa62" />
 
@@ -82,7 +85,7 @@ Hasil run
 
 2. Modifikasi program diatas dimana data mahasiswa bersifat dinamis (input dari keyborad) yang terdiri dari nim, nama, kelas, dan ipk!
 
-**Jawaban **
+**Jawaban**
 
 1. a. Karena bubble sort butuh maksimal n-1 iterasi, jadi i < length - 1 agar semua data terurut
 
@@ -108,6 +111,7 @@ Hasil run
 
    <img width="522" height="354" alt="image" src="https://github.com/user-attachments/assets/52e66b19-523e-4861-8785-e56723455ffe" />
 
+
 **5.3 MENGURUTKAN DATA BERDASARKAN SELECTION SORT**
 
 **Hasil kode** 
@@ -131,9 +135,10 @@ class mahasiswaDemo04
 
 Di dalam method selection sort, terdapat baris program seperti di bawah ini: Untuk apakah proses tersebut, jelaskan!
 
-**Jawaban **
+**Jawaban**
 
 kode ini digunakan untuk menemukan posisi nilai IPK paling kecil yang nanti akan ditukar ke posisi depan pada proses selection sort
+
 
 **5.4 PRAKTIKUM 3**
 
@@ -169,7 +174,8 @@ Hasil run
 
 <img width="517" height="297" alt="image" src="https://github.com/user-attachments/assets/c6b055ae-c298-41c1-bb74-b185e1382902" />
 
-**5.5 LATIHAN PRAKTIKUM **
+
+**5.5 LATIHAN PRAKTIKUM**
 
 **Hasil kode pemograman** 
 
