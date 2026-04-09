@@ -8,6 +8,7 @@ public class MahasiswaDemo04 {
         String nim,nama,kelas,dummy;
         double ipk =0;
         int input;
+        int jumMHS =5;
 
         System.out.print("Masukkan data mahasiswa : ");
         dummy = ayu.nextLine();
@@ -17,7 +18,7 @@ public class MahasiswaDemo04 {
         Mahasiswa04 [] arrayOfMahasiswa = new Mahasiswa04[input];
 
         System.out.println("=== DATA MAHASISWA ===");
-        for (int i = 0; i < input; i++) {
+        for (int i = 0; i < jumMHS; i++) {
             System.out.println("Masukkan data Mahasiswa ke-"+(i+1));
             System.out.print("NIM        : ");
             nim = ayu.nextLine();
@@ -48,7 +49,23 @@ public class MahasiswaDemo04 {
         System.out.println("Data yang sudah terurut menggunakan INSERTION SORT (ASC)");
         list.insertionSort();
         list.tampil();
+
+        //melakukan pencarian data sequential
+        System.out.println("----------------------------------------");
+        System.out.println("Pencarian Data");
+        System.out.println("----------------------------------------");
+        System.out.println("masukkan ipk mahasiswa yang dicari : ");
+        System.out.print("IPK : ");
+        double cari = ayu.nextDouble();
+
+        System.out.println("menggunakan sequential searching");
+        double posisi = list.sequentialSearching(cari);
+        int pss = (int)posisi;
+        list.tampilPosisi(cari, pss);
+        list.tampilDataSearch(cari, pss);
+
     }
+
 }
 
  // Mahasiswa04 m1 = new Mahasiswa04("123", "Zidan", "2A", 3.2);

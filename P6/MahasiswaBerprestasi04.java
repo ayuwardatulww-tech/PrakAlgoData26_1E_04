@@ -53,4 +53,35 @@ public class MahasiswaBerprestasi04 {
             listMhs[j] = temp;
         }
     }
+    int sequentialSearching(double cari){
+        int posisi = -1;
+        for (int i = 0; i < listMhs.length; i++) {
+            if (listMhs[i].ipk04==cari) {
+                posisi=i;
+                break;
+            }
+        }
+        return posisi;
+    }
+    void tampilPosisi(double x, int pos){
+        if (pos!=-1) {
+            System.out.println("data mahasiswa dengan IPK : "+x+"ditemukan pada indeks "+pos);
+        }
+        else {
+            System.out.println("data "+x+"tidak ditemukan");
+        }
+    }
+    void tampilDataSearch(double x, int pos){
+        if (pos !=-1) {
+            System.out.println("nim\t : "+listMhs[pos].nim04);
+            System.out.println("Nama\t : "+listMhs[pos].nama04 );
+            System.out.println("Kelas\t : "+listMhs[pos].kelas04);
+            System.out.println("Ipk\t : "+listMhs[pos].ipk04);
+
+        }
+        else {
+            System.out.println("Data mahasiswa dengan IPK "+x+"tidak ditemukan");
+        }
+    }
+
 }
