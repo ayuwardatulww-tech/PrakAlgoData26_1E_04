@@ -7,8 +7,7 @@ public class MahasiswaDemo04 {
         Scanner ayu = new Scanner(System.in);
         String nim,nama,kelas,dummy;
         double ipk =0;
-        int input;
-        int jumMHS =5;
+        int jumMHS;
 
         System.out.print("Masukkan data mahasiswa : ");
         dummy = ayu.nextLine();
