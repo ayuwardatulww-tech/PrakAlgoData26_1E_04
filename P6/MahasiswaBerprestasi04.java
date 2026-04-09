@@ -53,16 +53,16 @@ public class MahasiswaBerprestasi04 {
             listMhs[j] = temp;
         }
     }
-    int sequentialSearching(double cari){
-        int posisi = -1;
-        for (int i = 0; i < listMhs.length; i++) {
-            if (listMhs[i].ipk04==cari) {
-                posisi=i;
-                break;
-            }
-        }
-        return posisi;
-    }
+    // int sequentialSearching(double cari){
+    //     int posisi = -1;
+    //     for (int i = 0; i < listMhs.length; i++) {
+    //         if (listMhs[i].ipk04==cari) {
+    //             posisi=i;
+    //             break;
+    //         }
+    //     }
+    //     return posisi;
+    // }
     void tampilPosisi(double x, int pos){
         if (pos!=-1) {
             System.out.println("data mahasiswa dengan IPK : "+x+"ditemukan pada indeks "+pos);
@@ -82,6 +82,22 @@ public class MahasiswaBerprestasi04 {
         else {
             System.out.println("Data mahasiswa dengan IPK "+x+"tidak ditemukan");
         }
+    }
+    int findBinarySearch(double cari, int left, int right){
+        int mid;
+        if (right >= left) {
+            mid = (left + right)/2;
+            if (cari == listMhs[mid].ipk04) {
+                return(mid);
+            }
+            else if (listMhs[mid].ipk04 > cari) {
+                return findBinarySearch(cari, left, mid-1);
+            }
+            else {
+                return findBinarySearch(cari, mid+1, right);
+            }
+        }
+        return -1;
     }
 
 }

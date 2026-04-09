@@ -12,10 +12,10 @@ public class MahasiswaDemo04 {
 
         System.out.print("Masukkan data mahasiswa : ");
         dummy = ayu.nextLine();
-        input = Integer.parseInt(dummy);
+        jumMHS = Integer.parseInt(dummy);
 
         MahasiswaBerprestasi04 list = new MahasiswaBerprestasi04();
-        Mahasiswa04 [] arrayOfMahasiswa = new Mahasiswa04[input];
+        Mahasiswa04 [] arrayOfMahasiswa = new Mahasiswa04[jumMHS];
 
         System.out.println("=== DATA MAHASISWA ===");
         for (int i = 0; i < jumMHS; i++) {
@@ -50,7 +50,7 @@ public class MahasiswaDemo04 {
         list.insertionSort();
         list.tampil();
 
-        //melakukan pencarian data sequential
+        
         System.out.println("----------------------------------------");
         System.out.println("Pencarian Data");
         System.out.println("----------------------------------------");
@@ -58,11 +58,22 @@ public class MahasiswaDemo04 {
         System.out.print("IPK : ");
         double cari = ayu.nextDouble();
 
-        System.out.println("menggunakan sequential searching");
-        double posisi = list.sequentialSearching(cari);
-        int pss = (int)posisi;
-        list.tampilPosisi(cari, pss);
-        list.tampilDataSearch(cari, pss);
+        //melakukan pencarian data sequential
+        // System.out.println("menggunakan sequential searching");
+        // double posisi = list.sequentialSearching(cari);
+        // int pss = (int)posisi;
+        // list.tampilPosisi(cari, pss);
+        // list.tampilDataSearch(cari, pss);
+
+        //melakukan pencarian data binary
+        System.out.println("--------------------------------------------");
+        System.out.println("menggunakan Binary Search");
+        System.out.println("--------------------------------------------");
+        list.selectionSort();
+        double posisi2 = list.findBinarySearch(cari, 0, jumMHS-1);
+        int pss2 = (int)posisi2;
+        list.tampilPosisi(cari, pss2);
+        list.tampilDataSearch(cari, pss2);
 
     }
 
