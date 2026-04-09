@@ -69,7 +69,7 @@ public class MahasiswaDemo04 {
         System.out.println("--------------------------------------------");
         System.out.println("menggunakan Binary Search");
         System.out.println("--------------------------------------------");
-        list.selectionSort();
+        list.bubbleSort();
         double posisi2 = list.findBinarySearch(cari, 0, jumMHS-1);
         int pss2 = (int)posisi2;
         list.tampilPosisi(cari, pss2);

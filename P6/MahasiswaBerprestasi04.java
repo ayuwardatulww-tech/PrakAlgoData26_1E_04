@@ -90,7 +90,7 @@ public class MahasiswaBerprestasi04 {
             if (cari == listMhs[mid].ipk04) {
                 return(mid);
             }
-            else if (listMhs[mid].ipk04 > cari) {
+            else if (listMhs[mid].ipk04 < cari) {
                 return findBinarySearch(cari, left, mid-1);
             }
             else {
