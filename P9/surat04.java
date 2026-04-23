@@ -8,8 +8,8 @@ public class surat04 {
     int durasi;
     
     public surat04(){
-        
     }
+    
     public surat04(String idSurat, String namaMahasiswa, String kelas, char jenisIzin, int durasi) {
         this.idSurat = idSurat;
         this.namaMahasiswa = namaMahasiswa;
@@ -17,5 +17,4 @@ public class surat04 {
         this.jenisIzin = jenisIzin;
         this.durasi = durasi;
     }
-   
 }

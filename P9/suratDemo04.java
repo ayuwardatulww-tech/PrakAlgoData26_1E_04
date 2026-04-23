@@ -7,9 +7,7 @@ public class suratDemo04 {
         Scanner ayu = new Scanner(System.in);
         stackSurat04 stack = new stackSurat04(5);
 
-
         int pilih;
-
         do {
             System.out.println("Menu:");
             System.out.println("1. Terima surat izin");
