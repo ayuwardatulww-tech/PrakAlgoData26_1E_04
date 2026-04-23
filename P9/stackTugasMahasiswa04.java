@@ -55,4 +55,12 @@ public class stackTugasMahasiswa04 {
         }
         System.out.println("");
     }
+    public MAHASISWA04 peekBottom(){
+        if (!isEmpty()) {
+            return stack[0];
+        } else {
+            System.out.println("Stack kosong! Tidak ada tugas yang dikumpulkan");
+            return null;
+        }
+    }
 }
