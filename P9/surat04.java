@@ -10,7 +10,6 @@ public class surat04 {
     public surat04(){
         
     }
-
     public surat04(String idSurat, String namaMahasiswa, String kelas, char jenisIzin, int durasi) {
         this.idSurat = idSurat;
         this.namaMahasiswa = namaMahasiswa;

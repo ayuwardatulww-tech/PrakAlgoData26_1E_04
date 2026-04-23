@@ -69,5 +69,4 @@ public class stackSurat04 {
             System.out.println("Surat dengan nama " + nama + " tidak ditemukan.");
         }
     }
-
 }

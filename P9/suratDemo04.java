@@ -65,7 +65,6 @@ public class suratDemo04 {
 
              }
          } while (pilih >= 1 && pilih <=4);
-        
          ayu.close();
     }
 }
