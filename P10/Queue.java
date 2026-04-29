@@ -6,6 +6,7 @@ public class Queue {
     int rear;
     int size;
     int max;
+    
 
     public Queue(int n){
         max = n;
