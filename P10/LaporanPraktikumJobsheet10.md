@@ -83,10 +83,67 @@ Jawab : <img width="649" height="108" alt="image" src="https://github.com/user-a
 
 <img width="621" height="101" alt="image" src="https://github.com/user-attachments/assets/e535d3a2-17e8-4eb9-97e5-177b89f4d3d3" />
 
+System.exit(1) akan langsung menghentikan seluruh program saat dipanggil. Angka 1 menandakan program berhenti karena error
+
+
 
 
 **Praktikum 2**
 
 Hasil kode
 
+class mahasiswa
+
+<img width="643" height="377" alt="image" src="https://github.com/user-attachments/assets/ca0cb5e6-9fa0-4890-924a-c7feaac9d7df" />
+
+class antriLayanan
+
+<img width="757" height="805" alt="image" src="https://github.com/user-attachments/assets/21300a32-6c6f-4b19-bf32-14521c6ec672" />
+
+<img width="692" height="640" alt="image" src="https://github.com/user-attachments/assets/1d21de3e-b58a-482e-8bef-9a0fc45c16bc" />
+
+<img width="612" height="290" alt="image" src="https://github.com/user-attachments/assets/c64b81b9-9c67-4f09-b63b-f6d1a053d6e6" />
+
+class layananAkademikSIAKAD
+
+<img width="773" height="419" alt="image" src="https://github.com/user-attachments/assets/b5388c39-55e6-4f44-8e92-82ecdf62e42a" />
+
+<img width="822" height="785" alt="image" src="https://github.com/user-attachments/assets/7c8a55d9-3ed8-4123-a5c0-7d358e8386d3" />
+
+
+
 Hasil run
+
+<img width="348" height="507" alt="image" src="https://github.com/user-attachments/assets/ccb9e329-6f63-4069-b1cf-e21170b9d1b9" />
+
+<img width="373" height="470" alt="image" src="https://github.com/user-attachments/assets/97c5260a-0de3-4acf-bf21-d1767349eea0" />
+
+<img width="387" height="585" alt="image" src="https://github.com/user-attachments/assets/a34b7b3a-6909-4e30-a512-4a9329032f38" />
+
+
+**Pertanyaan**
+
+Lakukan modifikasi program dengan menambahkan method baru bernama LihatAkhir pada class
+AntrianLayanan yang digunakan untuk mengecek antrian yang berada di posisi belakang. Tambahkan
+pula daftar menu 6. Cek Antrian paling belakang pada class LayananAkademikSIAKAD sehingga
+method LihatAkhir dapat dipanggil!
+
+Jawab : 
+modifikasi pada class antri layanan dengan menambahkan method lihatAkhir()
+
+<img width="575" height="185" alt="image" src="https://github.com/user-attachments/assets/380408fd-5c95-47f8-b2e3-a82541eafffb" />
+
+lalu pada class layananAkademikSIAKAD
+
+penambahan pada tampilan menu 
+<img width="542" height="31" alt="image" src="https://github.com/user-attachments/assets/53ee1501-6b58-441b-a38d-1e492f89f809" />
+
+penambahan pada switch case 
+<img width="266" height="79" alt="image" src="https://github.com/user-attachments/assets/ce1fab57-eda0-4d59-98d4-18356f0873bd" />
+
+
+hasil run
+
+<img width="348" height="232" alt="image" src="https://github.com/user-attachments/assets/2b235464-88e9-44f9-a2d9-2e22aa37d866" />
+
+**Tugas**
