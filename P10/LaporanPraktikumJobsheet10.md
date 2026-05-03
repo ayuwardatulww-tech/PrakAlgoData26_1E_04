@@ -147,3 +147,63 @@ hasil run
 <img width="348" height="232" alt="image" src="https://github.com/user-attachments/assets/2b235464-88e9-44f9-a2d9-2e22aa37d866" />
 
 **Tugas**
+
+Hasil kode pemograman yang sesuai dengan soal 
+
+class Mahasiswa saya memanggil class Mahasiswa pada praktikum 2
+<img width="694" height="376" alt="image" src="https://github.com/user-attachments/assets/b3ebadc1-b385-42c2-bffd-dcdb3f008f21" />
+
+class layananKRS
+<img width="735" height="884" alt="image" src="https://github.com/user-attachments/assets/f61863d2-14b6-413d-839e-603f0e5d9f23" />
+<img width="656" height="818" alt="image" src="https://github.com/user-attachments/assets/5d1adb69-3870-4f1c-aae1-88b1e8dd3c72" />
+<img width="693" height="561" alt="image" src="https://github.com/user-attachments/assets/4d546d8b-b794-4cd8-95e7-9cfd7a7a9ff3" />
+
+class KRSmain
+<img width="644" height="496" alt="image" src="https://github.com/user-attachments/assets/a04d5cdb-a4a4-492a-8b5a-ec38eda6b2eb" />
+<img width="611" height="814" alt="image" src="https://github.com/user-attachments/assets/6015fcaf-8239-4b36-8da3-9f6f69515fc9" />
+
+
+Hasil run
+
+Tampilan Menu 
+<img width="346" height="206" alt="image" src="https://github.com/user-attachments/assets/91a75d96-e742-4255-ad63-11f0997e14ba" />
+
+Menu 1
+
+<img width="312" height="117" alt="image" src="https://github.com/user-attachments/assets/cbf47592-8f35-4ed1-ba74-8d809c23ce17" />
+<img width="348" height="120" alt="image" src="https://github.com/user-attachments/assets/90435fb0-d05e-4e2a-89dc-125ad4367a70" />
+<img width="355" height="123" alt="image" src="https://github.com/user-attachments/assets/47464f8c-22d7-435d-b2b0-fa38e6623ebc" />
+<img width="336" height="118" alt="image" src="https://github.com/user-attachments/assets/7e375cf6-138a-48b8-9d69-a01c4be4a7d4" />
+
+Menu 2
+<img width="298" height="210" alt="image" src="https://github.com/user-attachments/assets/5992b812-1432-4c00-bee8-df637081f6f1" />
+
+Menu 3
+<img width="250" height="99" alt="image" src="https://github.com/user-attachments/assets/10eb4eb1-38f5-4b2d-9558-105693bcde18" />
+
+Menu 4
+<img width="262" height="88" alt="image" src="https://github.com/user-attachments/assets/34ecc690-76c0-4c7a-bc2c-af90d360f502" />
+
+Menu 5
+<img width="175" height="44" alt="image" src="https://github.com/user-attachments/assets/0804de68-1eb9-4480-a28b-2b5e76e890ff" />
+
+Menu 6
+<img width="282" height="105" alt="image" src="https://github.com/user-attachments/assets/0f6abb62-3a00-4145-a1e4-8e785ebdaca8" />
+
+Menu 5 
+<img width="203" height="50" alt="image" src="https://github.com/user-attachments/assets/cc4bb65d-8a2e-4107-a0be-ba9566084869" />
+
+Menu 7
+<img width="265" height="51" alt="image" src="https://github.com/user-attachments/assets/8a10e0ad-59d9-450b-9a52-d72f769676f0" />
+
+Menu 6
+<img width="240" height="100" alt="image" src="https://github.com/user-attachments/assets/5f0def5c-1a31-42cc-9127-02b8415a3539" />
+
+Menu 8
+<img width="291" height="49" alt="image" src="https://github.com/user-attachments/assets/b2fc6329-422c-4e45-9aca-a6ddfcde4c3c" />
+
+Menu 9
+<img width="241" height="54" alt="image" src="https://github.com/user-attachments/assets/45f16b9c-a9b4-49e9-8ba9-22a9ca239568" />
+
+Menu 0 
+<img width="168" height="56" alt="image" src="https://github.com/user-attachments/assets/c7625163-ab20-4059-9c0e-c268df257e18" />
