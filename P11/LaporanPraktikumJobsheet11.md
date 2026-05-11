@@ -50,3 +50,39 @@ Hasil kode
 Hasil run
 <img width="167" height="279" alt="image" src="https://github.com/user-attachments/assets/dc158e47-b4ba-4fc6-adac-e69412b7935c" />
 
+
+**Percobaan 2**
+
+Hasil kode program
+
+Class SLLMain04
+<img width="421" height="113" alt="image" src="https://github.com/user-attachments/assets/880ccf0e-6fad-442c-834d-5bcef8fe6240" />
+
+Class SingleLinkedList04
+<img width="376" height="428" alt="image" src="https://github.com/user-attachments/assets/faace2b8-74f0-48d8-8b8b-12fbad769657" />
+
+<img width="395" height="348" alt="image" src="https://github.com/user-attachments/assets/ee1edb27-170a-4539-9d3a-a1ab72bf4cb5" />
+
+
+Hasil run
+<img width="199" height="152" alt="image" src="https://github.com/user-attachments/assets/43c04e8f-1be7-48e1-b49e-6f20645a537f" />
+
+
+**Pertanyaan**
+
+1. Mengapa digunakan keyword break pada fungsi remove? Jelaskan!
+
+Jawab : Keyword break digunakan untuk menghentikan perulangan (loop) segera setelah node yang dicari ditemukan dan dihapus, agar program tidak terus menelusuri node-node berikutnya yang tidak perlu.
+
+2. Jelaskan kegunaan kode dibawah pada method remove
+
+Jawab : 
+
+- temp.next = temp.next.next
+Menghapus node target dengan cara menyambungkan langsung node sebelumnya (temp) ke node sesudah node yang dihapus (temp.next.next), sehingga node target tidak lagi terhubung ke linked list.
+
+- if (temp.next == null) tail = temp
+Mengecek apakah node yang dihapus adalah node terakhir. Jika iya, maka tail diperbarui menjadi temp (node sebelumnya), karena node terakhir sudah berubah setelah penghapusan.
+
+**TUGAS**
+
