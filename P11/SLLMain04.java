@@ -28,6 +28,16 @@ public class SLLMain04 {
             System.out.println("\nIsi Linked List setelah penambahan: ");
             sll.print();
         }
+        System.out.println("Data indek 1: ");
+        sll.getData(1);
+
+        System.out.println("data mahasiswa an Ayu berada pada indeks : "+sll.indexOf("Ayu"));
+        System.out.println();
+
+        sll.removeFirst();
+        sll.removeLast();
+        sll.print();
+        sll.removeAt(0);
+        sll.print();
     }
-    
 }
