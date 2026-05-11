@@ -1,21 +1,32 @@
 package P11;
 
+import java.util.Scanner;
+
 public class SLLMain04 {
     public static void main(String[] args) {
+        Scanner ayu = new Scanner(System.in);
         singleLinkedList04 sll = new singleLinkedList04();
 
-        mahasiswa04 mhs1 = new mahasiswa04("Eki", "21212203", "4D", 3.6);
-        mahasiswa04 mhs2 = new mahasiswa04("Warda", "22212202", "3C", 3.5);
-        mahasiswa04 mhs3 = new mahasiswa04("Issom", "23212201", "2B", 3.8);
-        mahasiswa04 mhs4 = new mahasiswa04("Ayu", "24212200", "1A", 4.0);
+        System.out.print("Masukkan Jumlah Mahasiswa : ");
+        int jml = ayu.nextInt();
+        ayu.nextLine();
 
-        sll.print();
-        sll.addFirst(mhs4);
-        sll.print();
-        sll.addLast(mhs1);
-        sll.print();
-        sll.insertAfter("Eki", mhs3);
-        sll.insertAt(2, mhs2);
-        sll.print();
+        for (int i = 0; i < jml; i++) {
+            System.out.print("Masukkan Nama : ");
+            String nama = ayu.nextLine();
+            System.out.print("Masukkan NIM  : ");
+            String nim = ayu.nextLine();
+            System.out.print("Masukkan Kelas: ");
+            String kelas = ayu.nextLine();
+            System.out.print("Masukkan IPK  : ");
+            double ipk = ayu.nextDouble();
+            ayu.nextLine();
+
+            mahasiswa04 mhs = new mahasiswa04(nama, nim, kelas, ipk);
+            sll.addLast(mhs);
+
+            System.out.println("\nIsi Linked List setelah penambahan: ");
+            sll.print();
+        }
     }
 }
