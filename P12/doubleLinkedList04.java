@@ -101,4 +101,16 @@ public class doubleLinkedList04 {
         ayu.nextLine(); 
         return new mahasiswa04(nim, nama, kelas, ipk);
     }
+    public void printReverse() {
+        if (isEmpty()) {
+            System.out.println("Linked List masih kosong");
+            return;
+        }
+        System.out.println("=== Data Terbalik ===");
+        node04 current = tail;
+        while (current != null) {
+            current.data.tampilkan();
+            current = current.prev;
+        }
+    }
 }
