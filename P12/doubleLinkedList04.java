@@ -68,25 +68,26 @@ public class doubleLinkedList04 {
     }
     public void removeFirst() {
         if (isEmpty()) {
-            System.out.println("Linked List masih kosong, tidak dapat dihapus!");
-        }else if (head == tail) {
+            System.out.println("Linked List kosong");
+            return;
+        }
+        if (head == tail) {
             head = tail = null;
         }else {
             head = head.next;
+            head.prev = null;
         }
     }
     public void removeLast() {
         if (isEmpty()) {
-            System.out.println("Linked List masih kosong, tidak dapat dihapus!");
-        }else if (head == tail) {
+            System.out.println("Linked List kosong");
+            return;
+        }
+        if (head == tail) {
             head = tail = null;
-        }else {
-            node04 tmp = head;
-            while (tmp.next != tail) {
-                tmp = tmp.next;
-            }
-            tmp.next = null;
-            tail = tmp;
+        } else {
+            tail = tail.prev;
+            tail.next = null;
         }
     }
     public mahasiswa04 inputMahasiswa(Scanner ayu) {
@@ -106,7 +107,7 @@ public class doubleLinkedList04 {
             System.out.println("Linked List masih kosong");
             return;
         }
-        
+
         System.out.println("=== Data Terbalik ===");
         node04 current = tail;
         while (current != null) {
