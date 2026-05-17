@@ -17,6 +17,12 @@ public class doubleLinkedListMain04 {
             System.out.println("5. Hapus data di akhir");
             System.out.println("6. Tampilkan Data");
             System.out.println("7. Tampilkan Data Terbalik");
+            System.out.println("8. Tambah Data pada indeks Tertentu");
+            System.out.println("9. Hapus Data setelah NIM Tertentu");
+            System.out.println("10. Hapus Data pada indeks Tertentu");
+            System.out.println("11. Tampilkan Data pertama");
+            System.out.println("12. Tampilkan Data terakhir");
+            System.out.println("13. Tampilkan Data pada indeks Tertentu");
             System.out.println("0. Keluar");
             System.out.print("Pilih menu: ");
             pilihan = ayu.nextInt();
@@ -49,6 +55,37 @@ public class doubleLinkedListMain04 {
                     break;
                 case 7:
                     list.printReverse();
+                    break;
+                case 8:
+                    System.out.print("Masukkan indeks: ");
+                    int index = ayu.nextInt();
+                    ayu.nextLine();
+                    mahasiswa04 mhsIndeks = list.inputMahasiswa(ayu);
+                    list.add(index, mhsIndeks);
+                    break;
+                case 9:
+                    System.out.print("Masukkan NIM yang data setelahnya ingin dihapus: ");
+                    String nimHapus = ayu.nextLine();
+                    list.removeAfter(nimHapus);
+                    break;
+                case 10:
+                    System.out.print("Masukkan indeks yang data setelahnya ingin dihapus: ");
+                    int indexHapus = ayu.nextInt();
+                    ayu.nextLine();
+                    list.remove(indexHapus);
+                    break;
+                case 11:
+                    list.getFirst();
+                    break;
+                case 12:
+                    list.getLast(); 
+                    break;
+                case 13:
+                    list.getSize();
+                    System.out.print("Masukkan indeks yang datanya ingin ditampilkan: ");
+                    int indexTampil = ayu.nextInt();
+                    ayu.nextLine();
+                    list.getIndex(indexTampil);
                     break;
                 case 0:
                     System.out.println("Program selesai");
