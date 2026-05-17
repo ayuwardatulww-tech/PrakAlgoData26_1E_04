@@ -1,0 +1,16 @@
+package P12;
+
+public class mahasiswa04 {
+    String nim, nama, kelas;
+    double ipk;
+
+    mahasiswa04(String nim, String nama, String kelas, double ipk) {
+        this.nim = nim;
+        this.nama = nama;
+        this.kelas = kelas;
+        this.ipk = ipk;
+    }
+    public void tampilkan() {
+         System.out.println(nama+" \t "+nim+" \t "+kelas+" \t "+ipk);
+    }
+}
