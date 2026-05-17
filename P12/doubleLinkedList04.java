@@ -106,6 +106,7 @@ public class doubleLinkedList04 {
             System.out.println("Linked List masih kosong");
             return;
         }
+        
         System.out.println("=== Data Terbalik ===");
         node04 current = tail;
         while (current != null) {

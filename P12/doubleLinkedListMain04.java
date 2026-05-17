@@ -58,4 +58,5 @@ public class doubleLinkedListMain04 {
             }
         } while (pilihan != 0);
     }
+    
 }
