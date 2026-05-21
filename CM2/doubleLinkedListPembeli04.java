@@ -119,6 +119,4 @@ public class doubleLinkedListPembeli04 {
         System.out.println("No Antrian " + noAntrian + " tidak ditemukan.");
         return null;
     }
-
-    
 }

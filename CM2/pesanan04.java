@@ -13,5 +13,4 @@ public class pesanan04 {
     public void tampilPesanan(){
         System.out.println(kodePesanan + " \t " + namaPesanan + " \t " + harga);
     }
-    
 }

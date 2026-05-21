@@ -10,5 +10,4 @@ public class nodePesanan04 {
         this.prev = null;
         this.next = null;
     }
-    
 }

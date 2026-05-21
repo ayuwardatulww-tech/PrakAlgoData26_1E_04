@@ -8,13 +8,11 @@ public class mainRoyalDelish04 {
 
         doubleLinkedListPembeli04 listPembeli = new doubleLinkedListPembeli04();
         doubleLinkedListPesanan04 listPesanan = new doubleLinkedListPesanan04();
+         
         
-
         listPembeli.addLast(new pembeli04("Ayu", "085801"));
         listPembeli.addLast(new pembeli04("Eki", "085802"));
         listPembeli.addLast(new pembeli04("Yuki", "085803"));
-
-        
         
         int pilihan;
 
