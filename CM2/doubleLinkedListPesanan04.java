@@ -79,7 +79,6 @@ public class doubleLinkedListPesanan04 {
         System.out.println("================================================");
         System.out.println("Total Pendapatan: " + total);
     }
-    
     public pesanan04 inputPesanan(Scanner ayu, pembeli04 pembeli) {
         System.out.print("Kode pesanan: ");
         int kodePesanan = ayu.nextInt();

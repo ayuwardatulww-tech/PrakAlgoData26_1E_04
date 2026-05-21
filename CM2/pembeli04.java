@@ -14,4 +14,5 @@ public class pembeli04 {
     public void tampilPembeli(){
         System.out.println("No Antrian: " + noAntrian + " \t Nama Pembeli: " + namaPembeli + " \t No HP: " + noHP);
     }
+    
 }

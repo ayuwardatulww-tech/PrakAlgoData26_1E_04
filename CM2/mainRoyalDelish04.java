@@ -68,7 +68,5 @@ public class mainRoyalDelish04 {
                     System.out.println("Pilihan tidak valid!");
             }
         } while (pilihan !=0);
-
-
     }
 }

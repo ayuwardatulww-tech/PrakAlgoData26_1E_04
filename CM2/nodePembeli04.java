@@ -10,4 +10,5 @@ public class nodePembeli04 {
         this.prev = null;
         this.next = null;
     }
+    
 }
