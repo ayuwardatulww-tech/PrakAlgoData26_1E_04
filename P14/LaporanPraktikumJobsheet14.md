@@ -127,3 +127,40 @@ Jawab : itu rumus untuk tree yang disimpan di array (complete binary tree)
 
 ## TUGAS
 
+**Hasil perubahan class dari penambahan pada tugas**
+
+class binaryTree04
+
+<img width="477" height="709" alt="image" src="https://github.com/user-attachments/assets/651688eb-8a99-49fd-bc77-f75efaf40ffb" />
+
+<img width="591" height="662" alt="image" src="https://github.com/user-attachments/assets/4e492645-e50d-4f9d-90ba-6788f6423548" />
+
+
+class binaryTreeArray04
+
+<img width="500" height="452" alt="image" src="https://github.com/user-attachments/assets/308abf42-ea20-4aa1-b178-0042ed87010b" />
+
+<img width="813" height="700" alt="image" src="https://github.com/user-attachments/assets/97f724f1-b97c-43a2-9234-b013111cbbb3" />
+
+<img width="446" height="370" alt="image" src="https://github.com/user-attachments/assets/7bed0d2c-122c-4e84-ae65-db8ff08334bd" />
+
+
+class binaryTreeMain04
+
+<img width="779" height="416" alt="image" src="https://github.com/user-attachments/assets/8e4c6e43-c26a-4fb7-89c6-e5ff27f76bc5" />
+
+
+Class binaryTreeArrayMain04
+
+<img width="717" height="462" alt="image" src="https://github.com/user-attachments/assets/3ddfa136-5b05-4195-a5cf-03f480946cc8" />
+
+
+**Hasil run**
+
+class binaryTreeMain04
+
+<img width="515" height="427" alt="image" src="https://github.com/user-attachments/assets/75c26332-3fcb-4147-a7b4-36d45e039f6b" />
+
+class binaryTreeArrayMain04
+
+<img width="486" height="586" alt="image" src="https://github.com/user-attachments/assets/2ac55667-6b47-4e17-87cb-53ef26164cd6" />
