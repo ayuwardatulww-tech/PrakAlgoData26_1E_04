@@ -14,8 +14,34 @@ public class binaryTreeArrayMain04 {
 
     mahasiswa04[] dataMahasiswa = {mhs1, mhs2, mhs3, mhs4, mhs5, mhs6, mhs7, null, null, null};
     int idxLast = 6;
-    bta.populataData(dataMahasiswa, idxLast);
+    bta.populetaData(dataMahasiswa, idxLast);
     System.out.println("In Order Traversal Mahasiswa:");
     bta.traverseInOrder(0);
+
+     // Tugas 4: BinaryTreeArray
+        System.out.println("\n\n========== BinaryTreeArray ==========");
+        
+        mahasiswa04[] dataMhs = new mahasiswa04[10];
+        dataMhs[0] = new mahasiswa04("244160220", "Dewi", "B", 3.54);
+        dataMhs[1] = new mahasiswa04("244160185", "Candra", "C", 3.21);
+        dataMhs[2] = new mahasiswa04("244160121", "Ali", "A", 3.57);
+        dataMhs[3] = new mahasiswa04("244160220", "Dewi", "B", 3.35);
+        dataMhs[4] = new mahasiswa04("244160131", "Devi", "A", 3.48);
+        dataMhs[5] = new mahasiswa04("244160205", "Ehsan", "D", 3.61);
+        dataMhs[6] = new mahasiswa04("244160170", "Fizi", "B", 3.86);
+        
+        bta.populetaData(dataMhs, 6);
+        
+        System.out.println("\nData sebelum add (InOrder):");
+        bta.traverseInOrder(0);
+        
+        System.out.println("\nMenambahkan data baru dengan IPK 3.75:");
+        bta.add(new mahasiswa04("244160131", "Rara", "A", 3.75));
+        
+        System.out.println("\nData setelah add (InOrder):");
+        bta.traverseInOrder(0);
+        
+        System.out.println("\nTraversal PreOrder:");
+        bta.traversePreOrder(0);
     }
 }

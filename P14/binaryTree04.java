@@ -164,4 +164,85 @@ public class binaryTree04 {
         }
     }
     }
+    // Tugas 1: addRekursif()
+public void addRekursif(mahasiswa04 mahasiswa) {
+    if (isEmpty()) {
+        root = new node04(mahasiswa);
+    } else {
+        addRekursifHelper(root, mahasiswa);
+    }
+}
+
+void addRekursifHelper(node04 node, mahasiswa04 mahasiswa) {
+    if (mahasiswa.ipk < node.mahasiswa.ipk) {
+        if (node.left == null) {
+            node.left = new node04(mahasiswa);
+        } else {
+            addRekursifHelper(node.left, mahasiswa);
+        }
+    } else {
+        if (node.right == null) {
+            node.right = new node04(mahasiswa);
+        } else {
+            addRekursifHelper(node.right, mahasiswa);
+        }
+    }
+}
+
+// Tugas 2a: cariMinIPK()
+public void cariMinIPK() {
+    if (isEmpty()) {
+        System.out.println("Tree kosong!");
+        return;
+    }
+    cariMinIPKHelper(root);
+}
+
+void cariMinIPKHelper(node04 node) {
+    if (node.left == null) {
+        System.out.println("IPK Minimum: ");
+        node.mahasiswa.tampilInformasi();
+    } else {
+        cariMinIPKHelper(node.left);
+    }
+}
+
+// Tugas 2b: cariMaxIPK()
+public void cariMaxIPK() {
+    if (isEmpty()) {
+        System.out.println("Tree kosong!");
+        return;
+    }
+    cariMaxIPKHelper(root);
+}
+
+void cariMaxIPKHelper(node04 node) {
+    if (node.right == null) {
+        System.out.println("IPK Maximum: ");
+        node.mahasiswa.tampilInformasi();
+    } else {
+        cariMaxIPKHelper(node.right);
+    }
+}
+
+// Tugas 3: tampilMahasiswaIPKdiAtas()
+public void tampilMahasiswaIPKdiAtas(double ipkBatas) {
+    if (isEmpty()) {
+        System.out.println("Tree kosong!");
+        return;
+    }
+    System.out.println("Data mahasiswa dengan IPK > " + ipkBatas + ":");
+    tampilMahasiswaIPKdiAtasHelper(root, ipkBatas);
+}
+
+void tampilMahasiswaIPKdiAtasHelper(node04 node, double ipkBatas) {
+    if (node == null) return;
+    
+    tampilMahasiswaIPKdiAtasHelper(node.left, ipkBatas);
+    if (node.mahasiswa.ipk > ipkBatas) {
+        node.mahasiswa.tampilInformasi();
+    }
+    tampilMahasiswaIPKdiAtasHelper(node.right, ipkBatas);
+}
+    
 }

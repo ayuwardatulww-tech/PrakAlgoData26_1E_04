@@ -36,6 +36,32 @@ public class binaryTreeMain04 {
         bst.delete(3.57);
         System.out.println("\nDaftar semua mahasiswa setelah penghapusan 1 mahasiswa");
         bst.traverseInOrder(bst.root);
+
+         // Tugas 1: addRekursif
+        System.out.println("\n\n========== addRekursif ==========");
+        binaryTree04 bstRekursif = new binaryTree04();
+        System.out.println("Menambahkan data dengan addRekursif:");
+        bstRekursif.addRekursif(new mahasiswa04("244160121", "Ali", "A", 3.57));
+        bstRekursif.addRekursif(new mahasiswa04("244160185", "Candra", "C", 3.21));
+        bstRekursif.addRekursif(new mahasiswa04("244160220", "Dewi", "B", 3.54));
+        bstRekursif.addRekursif(new mahasiswa04("244160131", "Devi", "A", 3.72));
+        
+        System.out.println("\nHasil InOrder (terurut IPK kecil ke besar):");
+        bstRekursif.traverseInOrder(bstRekursif.root);
+
+        // Tugas 2a: cariMinIPK
+        System.out.println("\n\n========== IPK Minimum ==========");
+        bstRekursif.cariMinIPK();
+
+        // Tugas 2b: cariMaxIPK
+        System.out.println("\n========== IPK Maximum ==========");
+        bstRekursif.cariMaxIPK();
+
+        // Tugas 3: tampilMahasiswaIPKdiAtas
+        System.out.println("\n========== Mahasiswa dengan IPK di Atas 3.50 ==========");
+        bstRekursif.tampilMahasiswaIPKdiAtas(3.50);
+
+       
     }   
 
 }
