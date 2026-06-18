@@ -1,22 +1,25 @@
 package P16;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
 public class contohList04 {
     public static void main(String[] args) {
-        List  l = new java.util.ArrayList<>();
-        l.add(1);
-        l.add(2);
-        l.add(3);
+        List<String> l = new ArrayList<>(); // modifikasi
+        l.add("Udang Keju");
+        l.add("Lumpia Udang");
+        l.add("Burger");
         l.add("Cireng");
-        
-        System.out.printf("Elemen 0: %d total elemen: %d elemen terakhir: %s\n", 
+
+        // mengganti %d pertama dan terakhir menjadi %s 
+        System.out.printf("Elemen 0: %s total elemen: %d elemen terakhir: %s\n", 
                 l.get(0), l.size(), l.get(l.size() - 1));
 
-        l.add(4);
+        l.add("Jigor"); //modifikasi 
         l.remove(0);
-        System.out.printf("Elemen 0: %d total elemen: %d elemen terakhir: %s\n", 
+        // ini juga sama mengganti %d pertama dan terakhir menjadi %s
+        System.out.printf("Elemen 0: %s total elemen: %d elemen terakhir: %s\n", 
                 l.get(0), l.size(), l.get(l.size() - 1));
 
         List<String> names = new LinkedList<>();
