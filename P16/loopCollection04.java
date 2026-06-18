@@ -1,5 +1,7 @@
 package P16;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.Stack;
 
@@ -38,5 +40,13 @@ public class loopCollection04 {
         for (int i = 0; i < fruits.size(); i++) {
             System.out.printf("%s ", fruits.get(i));
         }
+        fruits.add("mangga");
+        fruits.add("sawo");
+        fruits.add("nangka");
+
+        Collections.sort(fruits);
+        System.out.println("\nMenambah 3 item baru dan sorting");
+        System.out.println(fruits);
+
     }
 }
