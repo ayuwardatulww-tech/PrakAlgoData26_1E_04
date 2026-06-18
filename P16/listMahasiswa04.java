@@ -2,6 +2,8 @@ package P16;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.Comparator;
 import java.util.List;
 
 import P11.Tugas04.Mahasiswa04;
@@ -23,13 +25,10 @@ public class listMahasiswa04 {
             System.out.println("" + mhs.toString());
         });
     }
-    int linierSearch(String nim){
-        for (int i = 0; i < mahasiswas.size(); i++) {
-            if (nim.equals(mahasiswas.get(i).nim)) {
-                return i;
-            }
-        }
-        return -1;
+    int binarySearch(String nim){
+        mahasiswas.sort((a, b)-> a.nim.compareTo(b.nim));
+        mahasiswa04 key = new mahasiswa04(nim, "", "");
+        return java.util.Collections.binarySearch(mahasiswas, key, Comparator.comparing(m -> m.nim));
     }
     public static void main(String[] args) {
         listMahasiswa04 lm = new listMahasiswa04();
@@ -41,7 +40,7 @@ public class listMahasiswa04 {
 
         lm.tampil();
 
-        lm.update(lm.linierSearch("202602"), new mahasiswa04("202602", "Akhleema", "021xx2"));
+        lm.update(lm.binarySearch("202602"), new mahasiswa04("202602", "Akhleema", "021xx2"));
         System.out.println("");
         lm.tampil();
     }
