@@ -30,6 +30,12 @@ public class listMahasiswa04 {
         mahasiswa04 key = new mahasiswa04(nim, "", "");
         return java.util.Collections.binarySearch(mahasiswas, key, Comparator.comparing(m -> m.nim));
     }
+    public void urutAscending(){ // modif asc
+        mahasiswas.sort((a, b) -> a.nim.compareTo(b.nim));
+    }
+    public void urutDescending(){ // modif desc
+        mahasiswas.sort((a, b) -> b.nim.compareTo(a.nim));
+    }
     public static void main(String[] args) {
         listMahasiswa04 lm = new listMahasiswa04();
         mahasiswa04 m = new mahasiswa04("202601", "Noureen", "021xx1");
@@ -42,6 +48,14 @@ public class listMahasiswa04 {
 
         lm.update(lm.binarySearch("202602"), new mahasiswa04("202602", "Akhleema", "021xx2"));
         System.out.println("");
+        lm.tampil();
+
+        System.out.println("\nTampilkan dalam bentuk Ascending: ");
+        lm.urutAscending();
+        lm.tampil();
+
+        System.out.println("\nTampilakn dalam bentuk Descending: ");
+        lm.urutDescending();
         lm.tampil();
     }
 }
