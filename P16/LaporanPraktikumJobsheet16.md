@@ -109,3 +109,39 @@ hasil kode penambahan 3 item
 hasil run
 
 <img width="205" height="78" alt="image" src="https://github.com/user-attachments/assets/3639d354-9e46-4869-a390-24a26d726c58" />
+
+
+**PERCOBAAN 3**
+
+hasil kode program
+
+<img width="409" height="406" alt="image" src="https://github.com/user-attachments/assets/2262cd69-f47e-40b2-8724-ba5bff733d46" />
+
+hasil run
+
+<img width="211" height="66" alt="image" src="https://github.com/user-attachments/assets/87b7af6b-0456-4f7e-b0a2-1df794b2af32" />
+
+**PERTANYAAN**
+
+1. Pada fungsi tambah() yang menggunakan unlimited argument itu menggunakan konsep apa?
+Dan kelebihannya apa?
+
+Jawab : konsep yang digunakan Varargs (Variable Argument) yang ditandai dengan sintaks tiga titik (...), ini otomatis diperlakukan sebagai sebuah array. Kelebihannya yakni membuat pembuat argumen menjadi sangat fleksibel, bisa memasukkan banyak objek sekaligus secara dinamis tanpa perlu membuat array manual atau memanggil fungsi tambah() berulang ulang
+
+2. Pada fungsi linearSearch() di atas, silakan diganti dengan fungsi binarySearch() dari collection!
+
+jawab : <img width="359" height="47" alt="image" src="https://github.com/user-attachments/assets/1f26bc8e-a5d8-4fd0-a9c1-4a4989cdff18" />
+
+hasil run
+<img width="167" height="56" alt="image" src="https://github.com/user-attachments/assets/22d17fea-e019-4a50-a13f-e44a97d73ff7" />
+
+3. Tambahkan fungsi sorting baik secara ascending ataupun descending pada class tersebut!
+
+jawab : <img width="194" height="55" alt="image" src="https://github.com/user-attachments/assets/75c88eb7-7c84-4051-a34e-0bf112cd4ced" />
+
+hasil run
+
+<img width="170" height="73" alt="image" src="https://github.com/user-attachments/assets/942327c9-6bc3-4707-8808-91a2dddf1b11" />
+
+**TUGAS PRAKTIKUM**
+
