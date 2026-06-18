@@ -40,6 +40,7 @@ public class loopCollection04 {
         for (int i = 0; i < fruits.size(); i++) {
             System.out.printf("%s ", fruits.get(i));
         }
+        
         fruits.add("mangga");
         fruits.add("sawo");
         fruits.add("nangka");
