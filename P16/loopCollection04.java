@@ -22,6 +22,9 @@ public class loopCollection04 {
         }
         fruits.push("Melon");
         fruits.push("durenn");
+
+        fruits.set(fruits.size() -1, "Strawberry");
+
         System.out.println("");
         for (Iterator<String> it = fruits.iterator(); it.hasNext();) {
             String fruit = it.next();
