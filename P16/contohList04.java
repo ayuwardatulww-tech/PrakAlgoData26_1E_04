@@ -22,6 +22,7 @@ public class contohList04 {
         System.out.printf("Elemen 0: %s total elemen: %d elemen terakhir: %s\n", 
                 l.get(0), l.size(), l.get(l.size() - 1));
 
+        //pertanyaan no.3
         LinkedList<String> names = new LinkedList<>();
         names.add("Noureen");
         names.add("Akhleema");
@@ -36,6 +37,7 @@ public class contohList04 {
                 names.get(0), names.size(), names.get(names.size() - 1));
         System.out.println("Names: " + names.toString());
 
+        //pertanyaan no.4
         names.push("Mei-mei");
         System.out.printf("Elemen 0: %s total elemen: %s elemen terakhir: %s\n", 
                 names.getFirst(), names.size(), names.getLast());
