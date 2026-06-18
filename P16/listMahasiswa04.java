@@ -30,10 +30,10 @@ public class listMahasiswa04 {
         mahasiswa04 key = new mahasiswa04(nim, "", "");
         return java.util.Collections.binarySearch(mahasiswas, key, Comparator.comparing(m -> m.nim));
     }
-    public void urutAscending(){ // modif asc
+    public void urutAscending(){
         mahasiswas.sort((a, b) -> a.nim.compareTo(b.nim));
     }
-    public void urutDescending(){ // modif desc
+    public void urutDescending(){ 
         mahasiswas.sort((a, b) -> b.nim.compareTo(a.nim));
     }
     public static void main(String[] args) {
