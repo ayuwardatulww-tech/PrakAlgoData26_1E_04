@@ -143,5 +143,63 @@ hasil run
 
 <img width="170" height="73" alt="image" src="https://github.com/user-attachments/assets/942327c9-6bc3-4707-8808-91a2dddf1b11" />
 
-**TUGAS PRAKTIKUM**
+## **TUGAS PRAKTIKUM**
 
+**hasil kode program**
+
+class nilai04
+
+<img width="319" height="140" alt="image" src="https://github.com/user-attachments/assets/3c15fe32-7c33-4848-a507-ede4e9d2a361" />
+
+class mataKuliah04
+
+<img width="286" height="131" alt="image" src="https://github.com/user-attachments/assets/ea861ac2-a644-4c0c-91cf-eff65a96299b" />
+
+class mainSistemNilai
+
+<img width="419" height="281" alt="image" src="https://github.com/user-attachments/assets/fc55bccb-a3bd-49f7-b096-2eee84c04a06" />
+
+<img width="568" height="370" alt="image" src="https://github.com/user-attachments/assets/b775995a-bc54-4fb4-aa44-23e178208a91" />
+
+<img width="545" height="232" alt="image" src="https://github.com/user-attachments/assets/506273ce-e601-4560-bb36-defaeccbda56" />
+
+<img width="334" height="379" alt="image" src="https://github.com/user-attachments/assets/e3d8bcf5-670b-4615-b230-8422b4759944" />
+
+
+**hasil run** 
+
+menu 
+
+<img width="230" height="94" alt="image" src="https://github.com/user-attachments/assets/c83ef435-57f8-455c-92cb-c3634defdfbc" />
+
+daftar mahasiswa
+
+<img width="150" height="58" alt="image" src="https://github.com/user-attachments/assets/74145ac0-855b-4191-acfb-b0ad695626f5" />
+
+daftar mata kuliah 
+
+<img width="160" height="41" alt="image" src="https://github.com/user-attachments/assets/e5369ae0-9d8c-45f2-98a4-cb592b462ab2" />
+
+
+pilih 1 --> input nilai 
+
+<img width="169" height="140" alt="image" src="https://github.com/user-attachments/assets/fa945830-bf6b-4f55-89d5-bd4cc93c9134" />
+<img width="185" height="140" alt="image" src="https://github.com/user-attachments/assets/3a93e0fa-fdc4-4f5f-8b6d-7186917c520c" />
+<img width="158" height="142" alt="image" src="https://github.com/user-attachments/assets/18313efc-f2c3-4a63-ba4e-a28d962bfc5c" />
+<img width="167" height="139" alt="image" src="https://github.com/user-attachments/assets/8d32ee93-8a9f-4050-99ba-8ac7ad2ecc1b" />
+
+pilih 2 --> menampilkan nilai 
+
+<img width="259" height="63" alt="image" src="https://github.com/user-attachments/assets/fb599bf3-4bb5-46be-b369-5bb2ab3c3ee2" />
+
+pilih 3 --> mencari nilai mahasiswa
+
+<img width="274" height="44" alt="image" src="https://github.com/user-attachments/assets/3cee5237-1491-44c6-abb4-685d343f55f8" />
+
+pilih 4 --> mengurutkan data/nilai menggunakan ascending
+
+<img width="267" height="59" alt="image" src="https://github.com/user-attachments/assets/2ee88f70-b532-497b-946b-4d05007b6c48" />
+
+pilih 5 --> menghapus antrian mahasiswa menggunakan metode queue
+
+<img width="215" height="24" alt="image" src="https://github.com/user-attachments/assets/7a196381-992a-4e58-9cdd-e0249b10bc9e" />
